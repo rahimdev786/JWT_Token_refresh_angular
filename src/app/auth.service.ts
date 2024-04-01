@@ -8,8 +8,6 @@ import { BehaviorSubject, Observable, tap } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-
-
   private readonly JWT_TOKEN = 'JWT_Token'
   private readonly Refresh_JWT_TOKEN = 'Refresh_JWT_TOKEN'
   private loggedInUser?: string;
